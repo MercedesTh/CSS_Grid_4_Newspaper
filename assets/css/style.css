@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;700&display=swap');
+
+
+body{
+    background: rgb(233, 233, 224);
+    height: 100vh;
+    font-family: 'Cormorant Garamond', serif;
+    position: relative;
+}
+
+header, main{
+    width: 90%;
+    margin: 0 5% 0 5%;
+}
+
+h1, nav, .issue, h2{
+    text-align: center;
+}
+
+h1{
+    margin: 1.5% auto;
+}
+
+nav{
+    border-top: 5px double;
+    border-bottom: 5px double;
+    margin-bottom: 1.5%;
+}
+
+.issue, main{
+    display: flex;
+}
+
+.issue{
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    margin: 0.5% 15% 0.5% 15%;
+}
+
+.push{
+    margin-left: 5%;
+}
+
+h2{
+    font-size: 2rem;
+    width: 60%;
+    margin: 0 0 2% 10%;
+}
+
+.gridContainer, figure{
+    width: 40%;
+}
+
+.gridContainer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 21% 37% 50%;
+}
+
+article{
+    width: 97%;
+}
+
+img{
+    width: 100%;
+}
+
+figure{
+    margin-left: 0.5%;
+}
+
+figcaption{
+    font-style: italic;
+}
+
+aside{
+    width: 16%;
+    text-align: center;
+    position: absolute;
+    right: 5%;
+    top: 16%;
+}
+
+h4, div{
+    margin-bottom: 10%;
+}
+
+div{
+    border: 5px double;
+    padding: 8%;
+}
+
+.yourAdd{
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.knivesNeedes{
+    width: 90%;
+}
+
+a{
+    text-decoration: none;
+    color: grey;
+    font-size: 1.2rem;
+    padding-bottom: 1%;
+    border-bottom: 1px solid gray;
+}
+
+.ikea{
+    color: #333;
+}
+
